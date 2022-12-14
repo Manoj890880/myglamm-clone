@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#NavBar {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.nav-top {
+  background-color: #fee8e8;
+  height: 2.375em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.top-nav-first {
+  display: flex;
+  margin-left: 7.8125vw;
+}
+.top-nav-gift {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.top-nav-gift > p {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  word-spacing: 0rem;
+  font-weight: 500;
+}
+.shopnow-topnav {
+  display: flex;
+  align-items: center;
+  padding: 0 2.2786458333333335vw;
+}
+.shopnow-topnav > p {
+  margin: auto;
+  font-size: 0.75rem;
+  color: rgb(254, 140, 140);
+  line-height: 1rem;
+  word-spacing: 0rem;
+  font-weight: 700;
+}
+.store-topnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8.5225vw;
+}
+.store-topnav > span {
+  font-size: 1.6rem;
+}
+.store-topnav > p {
+  margin-left: 0.5rem;
+  font-size: 0.813rem;
+  line-height: 1.25rem;
+  word-spacing: 0rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.nav-mid {
+  height: 3.125rem;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+/* freddy */
+
+.mid-nav-first {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+  margin-left: 9vw;
+}
+#navbar-logo {
+  width: 140px;
+  margin-right: 20px;
+  margin-top: -10px;
+}
+
+
+#mid-nav-searchbar {
+  width: 38vw;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin-top: -10px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  border: none;
+  background-color: rgb(246, 246, 246);
+}
+#mid-nav-searchbar-logo {
+  position: relative;
+  left: 35px;
+  top: -5px;
+  color: rgb(160, 160, 160);
+}
+
+.mid-nav-acc-cart{
+  margin-top: 20px;
+  border: 1px solid;
+  line-height: 10px;
+  margin-left: 30vw; 
+}
+
+#vertical-line-mid-nav{
+  border: 0.1px solid black;
+  
+}
+.mid-nav-sym{
+  font-size: 2rem;
+}
+
+
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  height: 2.5em;
+  color: #fee8e800;
+}
+.nav-link {
+  color: black;
+  font-size: 0.875rem; /* 14px */
+}
+.nav-item {
+  margin-left: 1.25rem;
+}
+.navbar-nav {
+  margin-left: -150px;
+}
+.navbar-toggler {
+  margin-left: 70vw;
+}
+
+#DDM1 {
+  position: absolute;
+  top: 38px;
+  left: -7vw;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+}
+#DDM2 {
+  position: absolute;
+  top: 38px;
+  left: -13.899739583333334vw;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+}
+#DDM3 {
+  position: absolute;
+  top: 38px;
+  left: -21.7vw;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+}
+#DDM4 {
+  position: absolute;
+  top: 38px;
+  left: -29.16vw;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+}
+#DDM5 {
+  position: absolute;
+  top: 38px;
+  left: -39.74vw;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+}
+#DDM6 {
+  position: absolute;
+  top: 38px;
+  left: -48.3vw;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+}
+#DDM7 {
+  position: absolute;
+  top: 38px;
+  left: -55.75vw;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+}
+#DDM8 {
+  position: absolute;
+  top: 38px;
+  left: -67.12vw;
+  margin: auto;
+  /* margin-left: -66.610416666666667vw; */
+  width: 80vw;
+  height: 70vh;
+}
+/* absolute:::: relative to the parent */
+@media all and (min-width: 20px) and (max-width: 992px) {
+  .navbar-toggler {
+    margin-left: 50vw;
+  }
+  .navbar-toggler {
+    position: relative;
+    left: 17.8125vw;
+  }
+  #DDM1 {
+    position: absolute;
+    top: -35px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  #DDM2 {
+    position: absolute;
+    top: -72px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  #DDM3 {
+    position: absolute;
+    top: -109px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  #DDM4 {
+    position: absolute;
+    top: -146px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  #DDM5 {
+    position: absolute;
+    top: -183px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  #DDM6 {
+    position: absolute;
+    top: -220px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  #DDM7 {
+    position: absolute;
+    top: -257px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  #DDM8 {
+    position: absolute;
+    top: -294px;
+    left: 16vw;
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+  }
+  .nav-bottom {
+    height: 3.2em;
+    color: #fee8e800;
+  }
+}
+
+.ssss {
+  width: 100%;
+  height: 2000px;
+  background-color: khaki;
+}
