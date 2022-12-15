@@ -1,0 +1,61 @@
+#myProgress{
+    width: 100%;
+    background-color: white;
+  }
+  #visitor{
+    width: 0%; 
+    height: 3px;
+    background-color: orange;
+  }
+  
+  .makeup-items-page{
+      width: 90%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 40px;
+  }
+  #mainHeading{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(213, 165, 217);
+    text-decoration-thickness: 5px;
+  }
+  
+  .makeup-items-page div{
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+      padding: 30px;
+  }
+  .makeup-items-page div:hover{
+      cursor: pointer;
+  }
+  .makeup-items-page img{
+      width: 60%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .makeup-items-page img:hover {
+      -ms-transform: scale(1.2); /* IE 9 */
+      -webkit-transform: scale(1.2); /* Safari 3-8 */
+      transform: scale(1.2); 
+    }
+  
+    .makeup-items-page .description{
+      color: grey;
+      
+    }
+  
+    .makeup-items-page .title,.makeup-items-page .price{
+      color: rgba(0, 0, 0, 0.986);
+      font-weight: bold;
+      
+    }
+    h3{
+      margin-left: 100px;
+    }
+    .ChangeCart{
+      margin-left:45%;
+    }
+  
