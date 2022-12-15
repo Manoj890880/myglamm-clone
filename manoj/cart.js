@@ -58,7 +58,7 @@ let hareCare_btn=document.querySelector(".ChangeCart button")
 
 hareCare_btn.addEventListener("click",()=>{
     move()
-    
+    document.getElementById("mainHeading").innerText="HAIR CARE"
 
 
     async function fetchAlldata() {
