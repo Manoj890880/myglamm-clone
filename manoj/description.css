@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background-color: rgb(240, 237, 237);
+}
+#mainHorizontalLine{
+    width: 80%;
+    margin: auto;
+    margin-top: 180px;
+}
+.slider-container{
+    max-width: 30%;
+    gap: 10px;
+    margin-right: 50%;
+}
+.slider-container img{
+    width: 100%;
+    padding: 4px;
+}
+
+/* #mainHorizontalLine{
+    width: 80%;
+    margin: auto;
+    margin-top: 180px;
+}
+#row{
+    width: 40%;
+    height: 100px;
+    border:  1px solid red;
+    margin-left: 10%;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+}
+#row div{
+    width: 18%;
+    height: 90%;
+    border: 1px solid green;
+    display: inline-block;
+    margin: auto;
+}
+#row div img{
+    width: 100%;
+    height: 100%;
+} */
+
+.imageContainer{
+    width: 30%;
+    height: 300px;
+    border: 1px solid green;
+   display: block;
+    margin-left: 10%;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.imageShownBox{
+    width: 45%;
+    height: 800px;
+    border: 1px solid blue;
+    margin-left: 45%;
+    margin-top: -380px;
+    font-size: 17px;
+}
+.imageShownBox 
+
+.colorBox,.addTocart{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorBox div{
+    width: 16%;
+}
+.addTocart{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+}
+.addTocart div{
+    /* width: 45%; */
+    /* border: 1px solid orange; */
+}
+.addTocart button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .addTocart button:hover {
+    opacity: 0.7;
+  }
+  .offerSection{
+    height: 20px;
+    width: 100%;
+    background-color: burlywood;
+  }
+  .offerSection p{
+    font-size: 15px;
+  }
+
+  .read-more-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .read-more-btn{
+    color: skyblue;
+  }
+
+  .read-more-text{
+    display: none;
+  }
+
+  .read-more-text--show{
+    display: inline;
+  }
