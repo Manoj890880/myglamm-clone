@@ -1,0 +1,126 @@
+
+.sign-up-box{
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 2%;
+    overflow: hidden;
+    height: 600px;
+    /* background-color: aquamarine; */
+}
+.top-text{
+    margin-top: 90px;
+}
+.mobile{
+    text-align: left;
+    margin-bottom: 0%;
+    font-weight: 800;
+    margin-left: 20%;
+    font-size: medium;
+}
+.black-row{
+    border: 1px solid black;
+    width: 120px;
+    float: left;
+    margin-left:20%;
+    margin-bottom: 0%;
+}
+.horizontal-row{
+    margin-top: 0%;
+    width: 100%;
+}
+.input-number{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    border: 0px;
+}
+#sel-cont{
+   font-size: small;
+   width: 100%;
+   font-weight: 600;
+   border: 0px;
+}
+
+.option{
+   border: 1px solid black;
+}
+.leg-text{
+   font-size: x-small;
+}
+fieldset{
+   width: inherit;
+   height: 20px;
+}
+.button-div{
+   width: 70%;
+   margin: auto;
+   margin-top: 30px;
+}
+.button{
+   padding: 15px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   font-weight: 700;
+   border-radius: 2px;
+}
+.hr-line{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+.hr-line > p{
+    width: 80%;
+    text-align: center; 
+    border-bottom: 2px solid rgb(229,229,229); 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+.hr-line > p > span{
+background:#fff; 
+padding:0 10px;
+}
+.login-with{
+   display: flex;
+   margin-top: 20px !important;
+   justify-content: center;
+   gap: 10px;
+   width: 80%;
+   margin: auto;
+}
+.cont-facebook{
+   display: flex;
+   border: 1px solid black;
+   gap: 10px;
+   justify-content: center;
+   width: 50%;
+}
+.cont-gmail{
+   display: flex;
+   border: 1px solid black;
+   gap: 10px;
+   justify-content: center;
+   width: 50%;
+}
+.cont-facebook > img{
+   margin-top: 5px;
+   height: 70%;
+   width: 15%;
+   border-radius: 50%;
+}
+.cont-gmail > img{
+   margin-top: 5px;
+   height: 70%;
+   width: 15%;
+   border-radius: 50%;
+}
+.login-with p{
+   font-size: small;
+}
+.logo >img {
+    width: 50%;
+    height: 20%;
+}
