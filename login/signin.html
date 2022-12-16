@@ -5,23 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN IN </title>
-    
-    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script> 
+
+    <link rel="stylesheet" href="signin.css">
 </head>
 <body>
-    <div class="model-content">
+    <div style="height: 250px;" class="model-content">
     
         <div class="container" id="register-box">
             <div class="sign-up-box">
-            <!-- <span id="close" class="close">×</span> -->
-                <h5 class="top-text"><span>Verify your mobile number to complete your registration
-                </span></h5>
+                <span></span>
+                <span></span>
+         <span class="close">×</span> 
                 <div class="logo">
-                    <img src="hermoso.png" alt="" style="max-width: 280px; max-height: 12rem; width: max-content;">
+                    <img src="hermoso.png">
+                </div> 
+             
+         
+                <p class="top-text">
+                    <span>VERIFY YOUR MOBILE NUMBER TO SIGNIN</span>
+                </p>
+                <div class="logo">
+                    <img src="mob-otp_1.png" alt="" style="max-width: 280px; max-height: 12rem; width: max-content;">
                 </div>
-             <hr class="black-row" style="margin-top:20px">
-                <hr class="horizontal-row">
-                <div class="input-number" style="margin-top:20px">
+
+                <h5 id="text">ENTER OTP SENT ON +91 8383015513</h5>
+             <!-- <hr class="black-row" style="margin-top:20px">
+                <hr class="horizontal-row"> -->
+                <!-- <div class="input-number" style="margin-top:20px">
                     <form action="" id="cont-code">
                     <div class="select-country">
                         <fieldset><legend class="leg-text">Name:</legend>
@@ -29,21 +40,20 @@
                         </fieldset>
                         
                     </div>
-                    </form>
+                    </form> -->
                     
-                    <div class="phone-number">
+                    <!-- <div class="phone-number">
                         <fieldset><legend class="leg-text">*Email:</legend><input type="text" id="user-email" class="input-number" placeholder="*Email Address"></fieldset>
                          
-                    </div>
-                </div>
+                    </div> -->
+               
     
                 <div class="button-div">
-    
-                    <button class="button" id="register-btn">sign up</button>
-    
+                    <button class="button" id="register-btn">VERIFY</button>
                 </div>
+            </div>
                
-                <p>By signing up you agree to our <a href="" style="text-decoration: none; color: black;"><b> Terms &amp; Conditions</b> </a> </p>
+                <!-- <p>By signing up you agree to our <a href="" style="text-decoration: none; color: black;"><b> Terms &amp; Conditions</b> </a> </p> -->
             </div>
         </div>
     
@@ -51,6 +61,39 @@
         </div>
 </body>
 </html>
+
+<style>
+    .sign-up-box{
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 2%;
+    overflow: hidden;
+    height: 480px;
+    /* background-color: aquamarine; */
+}
+#text{
+    font-size: 14px;
+    font-family:din-2014, sans-serif ; 
+    /* color: #333333; */
+    line-height: 15.4px;
+
+}
+.logo >img {
+    width: 50%;
+    height: 20%;
+    margin-top: 20px;
+}
+.top-text{
+    margin-top: 45px;
+    font-size: 14px;
+    font-family:din-2014, sans-serif ; 
+    color: #333333;
+    line-height: 21px;
+}
+</style>
 
 
     

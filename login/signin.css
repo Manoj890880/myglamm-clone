@@ -13,13 +13,6 @@
 .top-text{
     margin-top: 90px;
 }
-.top-text{
-   margin-top: 45px;
-   font-size: 14px;
-   font-family:din-2014, sans-serif ; 
-   color: #000000;
-   line-height: 21px;
-}
 .mobile{
     text-align: left;
     margin-bottom: 0%;
@@ -31,7 +24,6 @@
     border: 1px solid black;
     width: 120px;
     float: left;
-    margin-top: 20px;
     margin-left:20%;
     margin-bottom: 0%;
 }
@@ -131,6 +123,4 @@ padding:0 10px;
 .logo >img {
     width: 50%;
     height: 20%;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
