@@ -422,7 +422,6 @@
 .watch-love-shop-bigbanner {
   width: 80vw;
   margin: auto;
-  /* margin-bottom: 1000vh; */
   border: none;
   border-radius: 0%;
 }
@@ -430,6 +429,111 @@
   border-radius: 0%;
 }
 
+
+.footer-container{
+  margin: auto;
+  text-align: left;
+  width: 85vw;
+  /* border: 1px solid; */
+  margin-bottom: 30px;
+}
+.footer-row{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.footer-col{
+  padding-right: 20px;
+}
+.footer-col>h6{
+  font-size: 0.875rem;
+  color: rgb(168, 162, 158);
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.footer-col>ul>li>a{
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: black;
+}
+.footer-col>ul>li>a:hover{
+  color: rgb(255, 151, 151);
+}
+.footer-col>ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-end{
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.subscribenow>p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+.inputemailfooter>input{
+  width: 300px;
+  height: 40px;
+  border: 1px solid;
+}
+.inputemailfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputemailfooter>button{
+  height: 40px;
+  width: 130px;
+  margin-left: -5px;
+  color: white;
+  background-color: black;
+  font-size: 0.875rem;
+}
+.socialmedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 500px;
+  
+}
+.socialmedia>.vl{
+  border-left: 1px solid rgb(131, 131, 131);
+  height: 30px;
+  margin: 10px;
+  border-radius: 1px;
+}
+.socialmedia>p{
+  line-height: 40px;
+  margin-top: 15px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.social-logo{
+  width: 120px;
+  display:flex ;
+  justify-content: space-between;
+}
+.fa-brands{
+  font-size: 1.25rem;
+  color: #555;
+}
+.googleandiphone{
+  margin-left: 90px;
+}
+.googleandiphone>div{
+  width: 95%;
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-between;
+}
 @media all and (min-width: 20px) and (max-width: 992px) {
   .navbar-toggler {
     margin-left: 50vw;
@@ -514,6 +618,11 @@
     margin-top: 20px;
     margin-left: 10vw;
     display: inline-block;
+  }
+  .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 @media all and (max-width: 670px) {
