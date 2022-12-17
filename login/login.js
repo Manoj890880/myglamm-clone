@@ -8,10 +8,11 @@ function generator(){
    if(number != "") {
      window.location.href = "signin.html"
    }
+  
  }
 
 
- function sweet(){
+function sweet(){
   Swal.fire({
     title: 'هل تريد الاستمرار؟',
     icon: 'question',
@@ -26,4 +27,13 @@ function generator(){
 let close = document.querySelector("#close");
 
 
+
+function otpGEN(){
+  let otp = "";
+  let i = 0;
+  while(i<6) {
+    otp += Math.floor(Math.random() * 10);
+  }
+  
+}
 
