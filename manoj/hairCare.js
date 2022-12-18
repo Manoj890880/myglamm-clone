@@ -20,7 +20,7 @@ var i = 0;
 async function fetchAlldata() {
 
     try {
-        let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products")
+        let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products-2")
 
         let fetched_data = await fetch_request.json()
 
@@ -55,54 +55,54 @@ async function fetchAlldata() {
 
 fetchAlldata()
 
-// let hareCare_btn=document.querySelector(".ChangeCart button")
+let hareCare_btn=document.querySelector(".ChangeCart button")
 
-// hareCare_btn.addEventListener("click",()=>{
+hareCare_btn.addEventListener("click",()=>{
     
-//     document.getElementById("mainHeading").innerText="HAIR CARE"
+    document.getElementById("mainHeading").innerText="HAIR CARE"
 
 
-//     async function fetchAlldata() {
+    async function fetchAlldata() {
 
-//         try {
-//             let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products-2")
+        try {
+            let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products-2")
     
-//             let fetched_data = await fetch_request.json()
+            let fetched_data = await fetch_request.json()
     
-//             let fetched_data_array = fetched_data.map((item) => {
-//                 return `
+            let fetched_data_array = fetched_data.map((item) => {
+                return `
                 
-//                 <div>
+                <div>
                 
-//                 <img src=${item.avatar} alt="">
-//                 <br>
-//                 <br>
-//                 <h3 class="w3-large title">${item.category}</h3>
+                <img src=${item.avatar} alt="">
+                <br>
+                <br>
+                <h3 class="w3-large title">${item.category}</h3>
                 
-//                 <h3 class="w3-large description">${item.description}</h3>
-//                 <br>
+                <h3 class="w3-large description">${item.description}</h3>
+                <br>
     
-//                 <h1 class="w3-large price">₹ ${item.price}</h1>
+                <h1 class="w3-large price">₹ ${item.price}</h1>
                 
-//                 </div>
+                </div>
                 
                 
-//                 `
-//             })
-//             console.log(fetched_data_array)
+                `
+            })
+            console.log(fetched_data_array)
             
-//             let mainContainer=document.querySelector(".makeup-items-page")
+            let mainContainer=document.querySelector(".makeup-items-page")
     
-//             mainContainer.innerHTML=""
+            mainContainer.innerHTML=""
     
-//             mainContainer.innerHTML=fetched_data_array.join("")
-//         } catch (error) {
-//             console.log(error)
-//         }
-//     }
+            mainContainer.innerHTML=fetched_data_array.join("")
+        } catch (error) {
+            console.log(error)
+        }
+    }
     
-//     fetchAlldata()
-// })
+    fetchAlldata()
+})
 
 // let data=[
 //     {
