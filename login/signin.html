@@ -28,8 +28,15 @@
                 <div class="logo">
                     <img src="mob-otp_1.png" alt="" style="max-width: 280px; max-height: 12rem; width: max-content;">
                 </div>
+            
+                <!-- <h5 id="text">ENTER OTP SENT ON +91 8383015513</h5> -->
+                <input class="enter-email" id="otp" type="number" placeholder="Enter Your OTP">
 
-                <h5 id="text">ENTER OTP SENT ON +91 8383015513</h5>
+                <div class="button-div">
+                    <button class="button" id="register-btn">VERIFY</button>
+                </div>
+
+ 
              <!-- <hr class="black-row" style="margin-top:20px">
                 <hr class="horizontal-row"> -->
                 <!-- <div class="input-number" style="margin-top:20px">
@@ -47,7 +54,7 @@
                          
                     </div> -->
                
-                <!-- <button onclick="optGEN()">Send OTP</button> -->
+                <!-- <button onclick="optGEN()">Send OTP</button>
                 <div class="button-div">
                     <button class="button" id="register-btn">VERIFY</button>
                 </div>
@@ -63,6 +70,13 @@
 </html>
 
 <style>
+
+    #otp {
+        width: 67%;
+        height: 30px;
+   margin: auto;
+   margin-top: 30px;
+    }
     .sign-up-box{
     border: 1px solid black;
     width: 30%;
@@ -71,7 +85,7 @@
     text-align: center;
     border-radius: 2%;
     overflow: hidden;
-    height: 480px;
+    height: 500px;
     /* background-color: aquamarine; */
 }
 #text{
@@ -94,6 +108,32 @@
     line-height: 21px;
 }
 </style>
+<script>
+    let connect_btn = document.getElementById("register-btn");
+connect_btn.onclick = () =>{
+    otplogin();
+}
+
+let  otplogin =() =>{
+    let otp = ""
+    // console.log("login page")
+     let num = document.getElementById("otp").value
+     let pin = localStorage.getItem("otp") || "";
+
+     for(let i=0 ; i<num.length ; i++){
+        otp +=String(num[i])
+     }
+     console.log(`"${otp}"`)
+
+    if(`"${otp}"` === pin ){
+        alert("Connected To Us Successfully")
+        window.location.href = "profile.html"
+    }
+    else{
+        alert("Invalid OTP")
+    }
+}
+</script>
 
 
     
