@@ -428,7 +428,9 @@
 .watch-love-shop-bigbanner > img {
   border-radius: 0%;
 }
-
+footer{
+  width: 99.5vw;
+}
 
 .footer-container{
   margin: auto;
@@ -478,7 +480,7 @@
   line-height: 1rem;
 }
 .inputemailfooter>input{
-  width: 300px;
+  width:  19.53125vw;
   height: 40px;
   border: 1px solid;
 }
@@ -489,7 +491,7 @@
 }
 .inputemailfooter>button{
   height: 40px;
-  width: 130px;
+  width: 8.463541666666666vw;
   margin-left: -5px;
   color: white;
   background-color: black;
@@ -500,7 +502,7 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  width: 500px;
+  width: 32.552083333333336vw;
   
 }
 .socialmedia>.vl{
@@ -517,7 +519,7 @@
   font-weight: 500;
 }
 .social-logo{
-  width: 120px;
+  width: 7.8125vw;
   display:flex ;
   justify-content: space-between;
 }
@@ -526,7 +528,7 @@
   color: #555;
 }
 .googleandiphone{
-  margin-left: 90px;
+  margin-left:  5.859375vw;
 }
 .googleandiphone>div{
   width: 95%;
