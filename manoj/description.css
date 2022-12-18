@@ -86,10 +86,10 @@ body{
     /* border: 1px solid blue; */
     justify-content: space-between;
 }
-.addTocart div{
+/* .addTocart div{
     /* width: 45%; */
     /* border: 1px solid orange; */
-}
+/* } */
 .addTocart button {
     border: none;
     outline: 0;
