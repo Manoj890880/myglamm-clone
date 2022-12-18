@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: w3-large title;
 }
 body{
     background-color: rgb(240, 237, 237);
@@ -86,10 +86,10 @@ body{
     /* border: 1px solid blue; */
     justify-content: space-between;
 }
-.addTocart div{
+/* .addTocart div{
     /* width: 45%; */
     /* border: 1px solid orange; */
-}
+/* } */
 .addTocart button {
     border: none;
     outline: 0;
