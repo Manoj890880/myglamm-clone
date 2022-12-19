@@ -40,7 +40,7 @@ localStorage.setItem("otp",JSON.stringify(otp));
 console.log(otp)
 
 alert(otp)
-window.location.href = "connect.html"
+window.location.href = "signin.html"
 
 }
 

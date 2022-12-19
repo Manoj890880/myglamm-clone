@@ -233,7 +233,7 @@ let collection_data =[
 async function fetchAlldata() {
 
     try {
-        let fetch_request = await fetch("http://localhost:3000/collection_data")
+        let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products-2")
 
         let fetched_data = await fetch_request.json()
 
@@ -277,7 +277,7 @@ hareCare_btn.addEventListener("click",()=>{
     async function fetchAlldata() {
 
         try {
-            let fetch_request = await fetch("http://localhost:3000/collection_data")
+            let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products-2")
     
             let fetched_data = await fetch_request.json()
     
