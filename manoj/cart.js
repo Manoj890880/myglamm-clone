@@ -26,7 +26,7 @@ async function fetchAlldata() {
 
         let fetched_data_array = fetched_data.map((item) => {
             return `
-            <a style="text-decoration: none;" href="http://127.0.0.1:5500/manoj/description.html">
+            <a style="text-decoration: none;" href="http://127.0.0.1:5501/manoj/description.html">
             <div>
             <img src=${item.avatar} alt="">
             <br>
@@ -42,7 +42,7 @@ async function fetchAlldata() {
             `
         })
         // console.log(fetched_data_array)
-        
+        move()
         let mainContainer=document.querySelector(".makeup-items-page")
 
         mainContainer.innerHTML=""
@@ -55,54 +55,54 @@ async function fetchAlldata() {
 
 fetchAlldata()
 
-let hareCare_btn=document.querySelector(".ChangeCart button")
+// let hareCare_btn=document.querySelector(".ChangeCart button")
 
-hareCare_btn.addEventListener("click",()=>{
-    move()
-    document.getElementById("mainHeading").innerText="HAIR CARE"
-
-
-    async function fetchAlldata() {
-
-        try {
-            let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products-2")
+// hareCare_btn.addEventListener("click",()=>{
     
-            let fetched_data = await fetch_request.json()
+//     document.getElementById("mainHeading").innerText="HAIR CARE"
+
+
+//     async function fetchAlldata() {
+
+//         try {
+//             let fetch_request = await fetch("https://636a9c11b10125b78fe075f7.mockapi.io/products-2")
     
-            let fetched_data_array = fetched_data.map((item) => {
-                return `
-                
-                <div>
-                
-                <img src=${item.avatar} alt="">
-                <br>
-                <br>
-                <h3 class="w3-large title">${item.category}</h3>
-                
-                <h3 class="w3-large description">${item.description}</h3>
-                <br>
+//             let fetched_data = await fetch_request.json()
     
-                <h1 class="w3-large price">₹ ${item.price}</h1>
+//             let fetched_data_array = fetched_data.map((item) => {
+//                 return `
                 
-                </div>
+//                 <div>
+                
+//                 <img src=${item.avatar} alt="">
+//                 <br>
+//                 <br>
+//                 <h3 class="w3-large title">${item.category}</h3>
+                
+//                 <h3 class="w3-large description">${item.description}</h3>
+//                 <br>
+    
+//                 <h1 class="w3-large price">₹ ${item.price}</h1>
+                
+//                 </div>
                 
                 
-                `
-            })
-            console.log(fetched_data_array)
+//                 `
+//             })
+//             console.log(fetched_data_array)
             
-            let mainContainer=document.querySelector(".makeup-items-page")
+//             let mainContainer=document.querySelector(".makeup-items-page")
     
-            mainContainer.innerHTML=""
+//             mainContainer.innerHTML=""
     
-            mainContainer.innerHTML=fetched_data_array.join("")
-        } catch (error) {
-            console.log(error)
-        }
-    }
+//             mainContainer.innerHTML=fetched_data_array.join("")
+//         } catch (error) {
+//             console.log(error)
+//         }
+//     }
     
-    fetchAlldata()
-})
+//     fetchAlldata()
+// })
 
 // let data=[
 //     {
