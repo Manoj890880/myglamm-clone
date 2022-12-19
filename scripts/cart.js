@@ -17,6 +17,8 @@ var i = 0;
   }
 }
 
+let bag=[]
+
 async function fetchAlldata() {
 
     try {
@@ -24,36 +26,60 @@ async function fetchAlldata() {
 
         let fetched_data = await fetch_request.json()
 
-        let fetched_data_array = fetched_data.map((item) => {
-            return `
-            <a style="text-decoration: none;" href="http://127.0.0.1:5501/manoj/description.html">
-            <div>
-            <img src=${item.avatar} alt="">
-            <br>
-            <br>
-            <h3 class="w3-large title">${item.category}</h3>
-            
-            <h3 class="w3-large description">${item.description}</h3>
-            <br>
+        bag=fetched_data
 
-            <h1 class="w3-large price">₹ ${item.price}</h1>
-            </div>
-            </a>
-            `
-        })
+        renderData(fetched_data)
+
+        
         // console.log(fetched_data_array)
         move()
-        let mainContainer=document.querySelector(".makeup-items-page")
-
-        mainContainer.innerHTML=""
-
-        mainContainer.innerHTML=fetched_data_array.join("")
+        
     } catch (error) {
         console.log(error)
     }
 }
 
 fetchAlldata()
+
+
+function renderData(fetched_data){
+  let fetched_data_array = fetched_data.map((item) => {
+    return `
+    <a style="text-decoration: none;" href="description.html">
+    <div>
+    <img src=${item.avatar} alt="">
+    <br>
+    <br>
+    <h3 class="w3-large title">${item.category}</h3>
+    
+    <h3 class="w3-large description">${item.description}</h3>
+    <br>
+
+    <h1 class="w3-large price">₹ ${item.price}</h1>
+    </div>
+    </a>
+    `
+})
+
+let mainContainer=document.querySelector(".makeup-items-page")
+
+        mainContainer.innerHTML=""
+
+        mainContainer.innerHTML=fetched_data_array.join("")
+}
+
+function findProducts(){
+  let q = document.querySelector("#mid-nav-searchbar").value;
+  console.log(bag)
+        console.log(q);
+        let newData = bag.filter((ele) => {
+            return ele.category.toLowerCase().includes(q.toLowerCase())
+        })
+        // console.log(newData);
+        renderData(newData)
+
+}
+
 
 // let hareCare_btn=document.querySelector(".ChangeCart button")
 

@@ -26,7 +26,7 @@ async function fetchAlldata() {
 
         let fetched_data_array = fetched_data.map((item) => {
             return `
-            <a style="text-decoration: none;" href="http://127.0.0.1:5501/manoj/description.html">
+            <a style="text-decoration: none;" href="description.html">
             <div>
             <img src=${item.avatar} alt="">
             <br>
