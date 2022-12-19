@@ -10,7 +10,7 @@ body{
 #mainHorizontalLine{
     width: 80%;
     margin: auto;
-    margin-top: 180px;
+    /* margin-top: 180px; */
 }
 .slider-container{
     max-width: 30%;
