@@ -40,19 +40,20 @@
 
 </br>
 
-## This is cart page, here you see , if any coupon or offers is available or not.
+## Welcome to the details page of our e-commerce website! Here, you can view the products you've selected for purchase.
 
-![Bag](https://user-images.githubusercontent.com/101343854/192218188-b06d87cf-23ee-410a-9c23-95a1a4706798.png)
+![Bag](https://lh3.googleusercontent.com/vE7TIzxLVo2K9VBBbgbQk2Rex9VhVoGwB43h599TF3vU1Gr5fNvl1aqSrPBL5Usbh_9zm1gQ7Rhz918GQyiwiy1rWdUVCL95u-xaXsSOucTKG_7d7VgKD3Wyj8QWGLOFqmMuSsbsWOBJ-ba1KqRZNoAdV3GcVgYtDrpwkT7QKeuwdfSytyiMBgA2JX49ZqRzw7UGm5hr7m-LRCszEe5ZGFSFwc9kKcyCi5yunO6VStOu0ZnAIg0zMUC2aOvNuw39spwQ4bcJ_6d5n9b9bu3dF8m0HqABM1MSQKjeLkb6aBK-xc6gE8i2YqdwCAmLPLMMkZQ8ZdB6CYipzretJrrTJcT19Tv_PkzaXi72OeemaQYlxlk9oKKG-EtsLD9vuui6rzN4Gzw9_u0RezZ7TVTD9e7XnQh3sGhgKUVIodgWPBhaIv5M2qP5d3rd_qdM1l7aATjko4i4xqssxZU_LHB0zmvqLGEIOnk_22_GYdI0aOt4V3JNnM7WVrcH6k8b7j1CbBH3IqcKe1qAC1OB0919ee8Nw6zvTpGuH6zEUqOU42Ku-Nbh0VaQrifT-qwdfwHhihjKm24vtv2fe1BTbOXxVVOehH7pEjcq6wW7qHy_Wn9DNHDruKIsDVO9Jvual1V2Xjvnpj1qT7k60Pj2phlc42OcxwsUsZGSmEmq__jCpAukWQsBfWT642hfwsqBvwjMR226M8OKJAuDeTkOHiwmbrld4p-OCz1dYZWIdGfoFmL7KqIW9pFQKUMNXqiPmfjKgaKWRuSD5rVM_brl65CCB7E9BVMV_lYXK0xP7z7WR65ogNV3rxVYoe3-c7YLRp5a3bq-S6Xt7m0wel5cxfEhkyUe_7U4LlcMQ8YESoNq5gOLtheqlTr5oKKZCRY1PpyZtYq6dpFBuKqM6fwRRy32gRgivvmnlnljlgYq8rs=w1364-h617-no?authuser=0)
 
 </br>
 
 ## This is footer section of landing page, this application is available on playstore as well as app store.
 
-![Footer](https://user-images.githubusercontent.com/101343854/192218405-5808efe1-ecb4-4f7e-b711-f979320c48d6.png)
+![Footer](https://lh3.googleusercontent.com/seK-Q-f3xOcNqG38Jo0Agh96C9TjA9KzD0vj6s5as_tqEZOItoCmG-JRB0lItw1oMBsEMCZCT_dagDGyAYHRuMDu72mF2mPo7lfc3CtCMRC4j3l5e_GXVqNgMAL29eOF1CZW7VlO1w_8kMicA92Z7bmBFTI5r_NdbZKWxr4Dqm8-Zl-ls3gYAn2LcB4iLZ1hnV56TWhyVlfPfsCKJt26TCYcerBlMDJx5WvTazHupxECJ3nvJyrDtegKODUdBy5W1r-Pa_krtywjY4-WYWG2ZV36Es-VX8fi2zZA4Kz_jFw9zT-jtGIRItbER9hg5wHkFAPmAmDX2FYi5FvEGf84Zjjgejqxeosznxno1ZwSpahpuBATb3WvG8UBs3VOwGNHbzKY_FvrkAMsymVhR0ZIBrp1WW6KMlxEKPtcp8WRNwJH-x1DsDxYavy053nPdz7Ltbllum_LPBpQDMoTzSaaTb_jAHWmwhETtfSiljiksJ0YfpOsBRCYqe4fdyWRIOxHMNL8852dyhsXn0UuExArUU_CX3QniV4_3dIcGqWcGNDXopCUGJdChsZvmGAPSKm-ntBrBCD2YbYrXgkfVI8NcawQSo2HISwwIj1UD41VYg_6CU3ameJdbmQ5z_puPxUwvF4lSekMaVc5CoA1UEZwzCcOTYci3Grk-KsFMGFHDeL9Cac53FYywVKrDDBzNvgldNaypKGoawiHpi1q1cxk1fuHb9XPq39_Mi6l3i7quDkhN4wfWmf4oyFkM0lENXqyMx6QlJCfwoBtpOyp9zUQib5MngSD6r5N22AffUqK0cXbP5py74G4yXFyobtoa_ZjC8LsZj6kmXv4PwGbsGxWfBuUfdVBPtEMoTt8ClvROdQ-HWvm3tYwH_s1mo9SjpNup_BJOzjgGMSunWhs4FQZZmDggb8I9aumUr4fjCY=w1366-h617-no?authuser=0)
+
 
 </br>
 
-### It is a collaborative project in which there were six members.It had completed within 5 days.This is all about our project.
+### It is a collaborative project in which there were five members.It had completed within 5 days.This is all about our project.
 
 </br>
 
