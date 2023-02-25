@@ -1,42 +1,42 @@
 
-# Myntra-Website-Clone
+# MyGlamm-Website-Clone
 
-### What is Myntra ?
-#### Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India. The company was founded in 2007 to sell personalized gift items.
+### What is MyGlamm ?
+#### MyGlamm is an e-commerce website that offers a diverse range of beauty and personal care products, including makeup, skincare, haircare, and grooming essentials.
 
 
-### What is Myntra used for?
-#### Myntra provides a number of Internet-based services through the Platform. One such Service enables Users to purchase original merchandise such as clothing, footwear and accessories from various fashion and lifestyle brands (collectively, "Products").
+### What is MyGlamm used for?
+#### MyGlamm is used as an online platform for purchasing beauty and personal care products, as well as for accessing beauty services such as makeup and grooming services.
 
 ## About :-
 ### Form validation is available.
 ### All products page is responsive only.
-### All features is available like sorting, filteration etc.
+### All features is available like searching, find details etc.
 
 ### TechStack :- HTML , CSS , JAVASCRIPT .
 
-### Netlify link :- https://e-myntra-clone.netlify.app/
+### Netlify link :- https://voluble-begonia-29d1da.netlify.app/index.html
 
 ## This is landing page of our website
 
 #### At navbar , there are many category,  you can see any product instantly.
-![Landing](https://user-images.githubusercontent.com/101343854/192213352-c3cc31aa-bfaf-4217-95e7-152f647a00c2.png)
+![Landing](https://lh3.googleusercontent.com/Tzg9lCmW2cc4Wt6fEpPTtgGBi1oarbFeWXvM9DsGhMOxUE5pBD-2BHhR-z2RXNYgJ3DoZ5TQPXli2sdwF_h1vLxl5JRJSnLwVloFS-4lhIrtqdy4z-RfYkAAT3mUS6Iw4OxNnjWaN3uxPyQXVRmytt1qOWTW8Lf8Qbda40YfLQ6yCYZLGeTYcTbasyOoAFEsEEQpoX3sCJKJFnEXE1XRQUCCg-XKownDUV33DfdW_A3jGcsOY_81aH37ArmLCmlHchIdGKIbASM30kWwHBYuLQvtpJfWo-LC0EgOA8GEG1fFtvwoWvsebyD5T9e1glWwLO2wxmxS8uLulaDfLJJdNXB7Hv59_vD1744IZy-jJvJsjWENm5x-c39PnJv2NOxMnGz82zJ5m7AvxS3U4jYL0qfrbddW4MlWjVtHSkUo1-rg0yViUF0y0U6gPIqDANq9D3Nvv0mOUnOeG4zwM4_30W1JyjoEwELsMoUbWKKsceJwxYLC7CrpeSw4kag5UJr_SAVGQyREtkWKEu7zLNThIBDG_39rM-IerCmu76H0tDob0wcJXU_BIwJW0IQLcNhEEt44UwkucukfhjCTaci294BhZq916RJrv1aouRDh5vDbzagb13N6-kDBzfS_SeH1doAsrpaQbF9ENTztmy0wdLA2yfAc2aZm64Zm1zdvuU5sD4lnRlI6axD4khc0Ir6-rGIf3Nw7aq3ca3LVsWDazjTVfX2kGUZrzL3ZYWrvKAvHonqs9Zj4pPY9ILcdnUePG1LmtzThixZOjliMgPElMKyWvh6qJjvCVMF1MHombkeGxBELzyBlrEn2uADaP02Mr11tFL-9r0egUhr1xjzTfn7l5jBIIotKv8892JHSS6fpp4ECEvPJXG1jygbmtLTeH4_Gz45Vi0XZArGt5r1RKRqna7U6hth2noqykrc=w1360-h617-no?authuser=0)
 
 </br>
 
 ## This is SignIn or LogIn Page, it have also form validation.
-![SignIn](https://user-images.githubusercontent.com/101343854/192216357-54e43f4f-c8c7-48fc-aa69-e6e620cba0a6.png)
+![SignIn](https://lh3.googleusercontent.com/_QKCoHMq7m2HayRHmxB7_A_5C1xYXu7PLxik05k5IgQOl0m2nxVs98R9L3S9yC82Ug4IFUnPdTYk8xMJHnb8k_GkTaux6-h8jcud6LiWJrj91bQQv_4H6BDFsTcR2FD7sLt1mC2QEYDeTpkwAGpknNEHgd1P0vayGqr7Rq3ciPOSeOjsC94YeHJE8Nynae6Y08v7oJJwOiVcj1FoiHRZPKxETCKAQiPJvktlHGTFha9XMmDn8CLhtZRdVUGYKIG-fYr7rnPtjSDlxnUy0Eydtswlls5ledr4GyFoE2DLCuDPYctPDFwvsUWHo2NHW9_ostxB70VbHnJaHMYOz9CNm-Q_TYYR8loDlCY6SBilNtmtbQ-ugtY6NjDs8TYxMuGqX9S_dsRyuHl7SAlFBhB2PKX-6RFUbes-fAMZ9yyZN1C-eKH2SiuKeDBmJy2KrbybCHFz7X8FmZCHtSiqudqsTQg2CJxXglGTlhqqyWCVqlpHB2mRiKzrOGgQr56YdMrtzW2BHjCj8_1ey1UiMVT-4iKde8FikuznBootqnsSkX2oVojIiMfe5TLcvuLW8zI4gvv1mTB1B9UBsEP9cNNBzSikqtt_UCJMLutX9MVajksk9aED0nInm8_odnCfyew0O-K3UdRM4vdO6L_kDGS7Lmk7ff3-G847yun0R98-CzNhUFt7WmKnuMYzcM3jGPpJOSRfUF0rhdneglDQnxsOtEOzTba1Vu016yryJgydi3WJ7mPhf3XNLLv40yVMvZ8dL-VC7aI0ZVWoj4sNFvVu7SJFCv2ien93jgnGuL-l1MYlnTBPBH5-nULBxqVJfZCIqtMQ8CCZpOVrzFOcAIIhflKSkIMpp7K9ULfj6IMSGnI2Xqk0lN4E4mO4vN-KrZxRXQFRnuxDyf9u_dapJYY-dI91c-xz1F2-NO0z0ko=w1366-h617-no?authuser=0)
 
 <br/>
 
-## This is product page which have all features like sorting , filteration and many more.
-![Products](https://user-images.githubusercontent.com/101343854/192215840-7a7c3194-3bf7-4296-ab12-85e8c656d01d.png)
+## This is product page which have all features available like searching, find details and many more.
+![Products](https://lh3.googleusercontent.com/sKOEEXZa415v-iVGDgH8xG9TNc9DGVpOkGmxTc5UeAfr6dwa2W_qvI0iHJ9syrTmhXJnpZtoOpt1NdVixoRITIExX0g5ykthSlTDHkb_rMLnrVUUkYeec151YBqm_m_cdnzBxaD6zbhUnL7vNZThlQSxkO9B9WaTyFXHnCnUUC0aGN4-ueeflRfhilhcS3YjimXyWDTguRaKBnCCR5_HbMzB8ECOkgXob4-y8xOpyxRZ8M2LmYryq6_8b4P1ognOT2HV0OLCOEjwVi4qGUzs8wgjbmRgJyGrdcFVLy2LcS0px2oSQMzfjyshobRc9VcRIzkgUjb9s-AKMIIRqR4RNgo1s-MXqags_sXWbtvqlSE9A8nnFJSN85It0gaPEFcJ6B5AJs4FnHCjtyfQM5M0eHpJYzDAv8ecQ6iVWh6Zh8rc-FXGzklxBeqapRqs8M3fahKEPXz1jqNKaSBkN_Zw0Ni4sb48tgELVhE8wpe5AS-ila3TTnEndX1dX5wKVizDppqW9bWRwUou9nuK_IZvdOJQZrtlbXP3VSYbicb3hhjDL_wOYCooE05OZRwTN7jQx3qnZ6usMG6YLT7BKy5I47YTgXzsuOsBG8eGukQLO8JWY3AaUt5kVEaAWNQnkiW8Y-SpdirVKJ4z0d1f6c5gsBaGKUiPaODapr_Ub1CnhtgOctJHH5aeUm79HOrii51slfI0HthM2mjDhfuogKb18I74UFGrhx9w7_1zMvs8e4N89HKws830PhG2z2diTLwgpf79wdnIe4OCuB05JcSK0OBIhNRYw314jcBAgesxk5RTxfPI1HhY8zqD1YroqNcBYz7JxV6pbY-d6lWgDWGb7Ecp-9coYxbBkwzNZoGOxzGZnkMJXeOxNG5PFW_U5IyipfLXcEXLLrASSYP_P3wLMF6vRHS3wNxRrbrbmc8=w1357-h617-no?authuser=0)
 
 <br/>
 
-## This is wishlist, You can add as many products as you want, it save time too instead visiting again and again same products.
+## This is the checkout page is the final step of your shopping journey where you can purchase all of your desired products in one go, saving time and avoiding the need to visit the same products again and again.
 
-![Wishlist](https://user-images.githubusercontent.com/101343854/192217812-0a895f68-54e3-4056-a363-6090dde8a57f.png)
+![Wishlist](https://lh3.googleusercontent.com/nDSU2txdvEoAaLWx0EVGwIeKQrbh19t2UEjV4bAFtGmhSsvGfnRTW1_mzuDLXAzCwEHFjhwzclcDHWekn6ndqzgUT2gwk3yKEebHvJdj-cLd3-CA5gxGCDHUbLlpbTg85b5sytw7wrFl5Sy-UyxKZpzr8HxV_EXu7zYPZiHEgNNZdq1tD8SXOJg_5hy12w9f7MI935Fl0agA2cK-gdcXwjXyX5Kyy7B8tF1dO68oGdqBPdXE5shG0B6GSdf6CBhlJIqOdqUVSmMQA9HvUulPZau1uGNJ4FEFp42yM8YyGyOabAmJLkkFdEy1oJsnZC_ba2QaQSvXNXlRg1akVJRK_LLlMl4s5AEsx4EB1wYtqnCDSyIEfw_xELSRz1DAP8qtNgKim_RpPoE_kw33YRL584rUEVk0SqPW-UspHh-gtKHTwISzSUM9NWntd0O6JHQi2-QRHR-mZsQRF6GkZEPFmluZAmF-540vB5906dEYiqwPZhBfs2zFH_K1_X_sAK6EhZA91rSNRHKVm9wuyJE5bfI4N_CtaCK_UFjPEXEMHYipbGYKY2uMMebqZfM9Un51iVaJZBj7RYx0MM3pcgZgu6V2KgyRjvsWj0DMcO7guZCImEMyBHBOFm-PBw5g6PX_IYoQRpG86Yf_p97JM0bV1rzw1RQ6iBSu_5k8OY2WbX4ncKBuQlGILxVt_rb08nVtvIvKct3sTp3AblvIpzmRqUFU3_n8q_FL6T5EOAE9q93h7RK9yzPSeWWIhZZoEGuGQSR8ns38mjBIOxt2YhOI6kpeqQ1GeDabNdc9cTPq2FYcsRqm2B8_nUFLIilM_cRvEnDDEX7IFUiRGzo_sNhlUr9VtX6GpRbx_J680UUWjS_1qAn76M9zofayMTebleox8NSFUhGAxGqqtmREmLnawvJCVlJbgZagn2yYEYM=w1366-h617-no?authuser=0)
 
 </br>
 
